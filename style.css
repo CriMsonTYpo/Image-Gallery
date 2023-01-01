@@ -4,15 +4,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("C:\Users\Pratik Senapati\Desktop\Code\Web_Development\DOM_practice\Image-Gallery\images\19667871f08c78c93e7fb35a06d159ae.jpg");
+    
     padding-bottom: 0px;
 }
+
+
+
 
 
 
 #img
 {
     width: 300px;
+    height:400px;
     
 }
 
@@ -48,3 +52,18 @@
     
 
 }
+
+/* #next 
+{
+   
+    align-self: center;
+    justify-self: flex-start;
+    
+}
+
+#prev
+{
+    height:50px;
+    align-self: center;
+    
+} */
