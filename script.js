@@ -40,9 +40,10 @@ i5.addEventListener('click', function()
     change(i5);
 })
 
-function next_()
+function n()
 {
-   let s=img.findIndex(i.src);
+    console.log(i.src);
+   let s=img.indexOf(i.src);
 
    if(s==4)
    {
@@ -55,9 +56,11 @@ function next_()
 
 }
 
-function prev_()
+function previous()
 {
-    let s=img.findIndex(i.src);
+    console.log(i.src);
+    let s=img.indexOf(i.src);
+    console.log(s);
 
    if(s==0)
    {
@@ -68,6 +71,6 @@ function prev_()
         return;
 }
 
-next.addEventListener('click', next_())
+next.addEventListener('click', n);
 
-prev.addEventListener('click', prev_())
+prev.addEventListener('click', previous);
