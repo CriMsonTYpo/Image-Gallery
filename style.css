@@ -8,9 +8,19 @@
     padding-bottom: 0px;
 }
 
+#t1
+{
+    text-align: center;
+}
 
-
-
+/* #title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */ 
 
 
 #img
